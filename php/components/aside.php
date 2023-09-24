@@ -56,7 +56,7 @@
     .headings{
         font-weight: 750 !important;
         color:gray;
-        font-size: .85rem !important;
+        font-size: .95rem !important;
     }
 
       .nav-scroller .nav {
@@ -83,104 +83,121 @@
     <nav id="" class="col-md-3 col-lg-2 d-md-block bg-light  collapse navbar-collapse sidebar" id="sidebarMenu">
       <div class="position-sticky pt-3 sidebar-sticky">
         <ul class="nav flex-column">
-          <h6 class="px-3 sidebar-heading mt-0 headings mb-0 text-uppercase">Equipo Tecnologico</h6>
+          <h6 class="px-3 sidebar-heading mt-2 headings mb-2 ">Equipo Tecnologico</h6>
           <li class="nav-item">
             <a class="nav-link" id="t-dash" href="./todos_tech.php">
+            <img src="../app_icos/all.svg" style="vertical-align: baseline" width="15" height="15">
               Todos
             </a>
           </li>
           <li class="nav-item">
             <a class="nav-link" id="c-dash" href="../php/computadoras.php">
+                <img src="../app_icos/pc.svg" style="vertical-align: baseline" width="15" height="15">
               Computadoras
             </a>
           </li>
           <li class="nav-item">
             <a class="nav-link" id="m-dash" href="./monitores.php">
               <span data-feather="shopping-cart" class="align-text-bottom"></span>
+              <img src="../app_icos/screen.svg" style="vertical-align: baseline" width="15" height="15">
               Monitores
             </a>
           </li>
           <li class="nav-item">
             <a class="nav-link" id="p-dash" href="./perifericos.php">
               <span data-feather="users" class="align-text-bottom"></span>
+              <img src="../app_icos/keyboard.svg" style="vertical-align: baseline" width="15" height="15">
               Perifericos
             </a>
           </li>
           <li class="nav-item">
             <a class="nav-link" id="pro-dash" href="./proyectores.php">
               <span data-feather="users" class="align-text-bottom"></span>
+              <img src="../app_icos/projector.svg" style="vertical-align: baseline" width="15" height="15">
               Proyectores
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" id="students-dash" href="#">
+            <a class="nav-link" id="s-dash" href="sonido.php">
               <span data-feather="users" class="align-text-bottom"></span>
-              Sonido
+              <img src="../app_icos/speaker.svg" style="vertical-align: baseline" width="15" height="15">
+              Dispositivos de Sonido
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" id="students-dash" href="#">
+            <a class="nav-link" id="i-dash" href="impresoras.php">
               <span data-feather="users" class="align-text-bottom"></span>
+              <img src="../app_icos/printer.svg" style="vertical-align: baseline" width="15" height="15">
               Impresoras
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" id="students-dash" href="#">
+            <a class="nav-link" id="b-dash" href="baterias.php">
               <span data-feather="users" class="align-text-bottom"></span>
+              <img src="../app_icos/battery.svg" style="vertical-align: baseline" width="15" height="15">
               Baterias
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" id="students-dash" href="#">
+            <a class="nav-link" id="o-dash" href="otros_tech.php">
               <span data-feather="users" class="align-text-bottom"></span>
+              <img src="../app_icos/others.svg" style="vertical-align: baseline" width="15" height="15">
               Otros
             </a>
           </li>
         </ul>
 
-        <h6 class="sidebar-heading d-flex justify-content-between headings align-items-center px-3 mt-0 mb-0 text-uppercase">
+        <h6 class="sidebar-heading d-flex justify-content-between headings align-items-center px-3 mt-2 mb-2">
           <span>Mobiliario</span></h6>
           <a class="link-secondary" href="#" aria-label="Add a new report">
             <span data-feather="plus-circle" class="align-text-bottom"></span>
+            
           </a>
         
         <ul class="nav flex-column mb-0">
           <li class="nav-item">
-            <a class="nav-link" id='matricula-dash' href="#">
+            <a class="nav-link" id='mob_t_dash' href="todos_mob.php">
+                <img src="../app_icos/all.svg" style="vertical-align: baseline" width="15" height="15">
              Todos
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" id="notas-dash" href="#">
+            <a class="nav-link" id="mob_p-dash" href="pupitres.php">
+                <img src="../app_icos/pupitre.svg" style="vertical-align: baseline" width="15" height="15">
               Pupitres
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" id='materias-dash' href="#">
+            <a class="nav-link" id='mob_s-dash' href="sillas.php">
+                <img src="../app_icos/chair.svg" style="vertical-align: baseline" width="15" height="15">
               Sillas
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" id="calificaciones-dash" href="#">
+            <a class="nav-link" id="mob_m-dash" href="mesas.php">
               <span data-feather="file-text" class="align-text-bottom"></span>
+              <img src="../app_icos/table.svg" style="vertical-align: baseline" width="15" height="15">
                Mesas
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" id="calificaciones-dash" href="#">
+            <a class="nav-link" id="mob_e-dash" href="escritorios.php">
               <span data-feather="file-text" class="align-text-bottom"></span>
+              <img src="../app_icos/desk.svg" style="vertical-align: baseline" width="15" height="15">
                Escritorios
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" id="calificaciones-dash" href="#">
+            <a class="nav-link" id="mob_a-dash" href="archivos.php">
               <span data-feather="file-text" class="align-text-bottom"></span>
+              <img src="../app_icos/file.svg" style="vertical-align: baseline" width="15" height="15">
                Archivos
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" id="calificaciones-dash" href="#">
+            <a class="nav-link" id="mob_otros-dash" href="otros_mob.php">
               <span data-feather="file-text" class="align-text-bottom"></span>
+              <img src="../app_icos/others.svg" style="vertical-align: baseline" width="15" height="15">
                Otros
             </a>
           </li>
